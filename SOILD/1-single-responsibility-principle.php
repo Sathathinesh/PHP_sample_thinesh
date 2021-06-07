@@ -10,7 +10,7 @@ class Report
 
     public function getDate()
     {
-        return '2016-04-21';
+        return '2021-06-07';
     }
 
     public function getContents()
@@ -37,7 +37,7 @@ class Report
 
     public function getDate()
     {
-        return '2016-04-21';
+        return '2021-06-07';
     }
 
     public function getContents()
