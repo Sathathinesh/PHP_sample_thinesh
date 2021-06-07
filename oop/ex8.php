@@ -1,17 +1,17 @@
 <?php
-class domain {
+class Domain {
   protected static function getWebsiteName() {
     return "example";
   }
 }
 
-class domainWeb extends domain {
+class DomainWeb extends Domain {
   public $websiteName;
   public function __construct() {
     $this->websiteName = parent::getWebsiteName();
   }
 }
 
-$domainWeb = new domainWeb;
+$domainWeb = new DomainWeb;
 echo $domainWeb -> websiteName;
 ?>
