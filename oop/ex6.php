@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<html>
-<body>
 
 <?php
 // Interface definition
@@ -38,7 +35,3 @@ foreach($animals as $animal) {
   $animal->makeSound();
 }
 ?>
-
-
-</body>
-</html>
