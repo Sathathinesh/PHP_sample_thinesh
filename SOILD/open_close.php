@@ -1,8 +1,4 @@
 
-<!DOCTYPE html>
-<html>
-<body>
-
 <?php
 
 interface Shape {
@@ -56,7 +52,3 @@ class AreaCalculator {
         return array_sum($area);
     }
 }
-
-
-</body>
-</html>
