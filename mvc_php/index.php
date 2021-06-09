@@ -15,7 +15,7 @@
     <h2> please Enter two numbers and get output of these sum</h2>
     <input type="text" name="keyword1" placeholder="enter the number">
     <input type="text" name="keyword2" placeholder="enter the number">
-    <button>search</button>
+    <button>SUM</button>
 </form>
 
 </body>
@@ -33,6 +33,7 @@ require_once "controller.php";
 require_once "model.php";
 require_once "view.php";
 
+
 $model =  new Model();
 $controller = new Controller($model);
 $view = new View($controller);
@@ -47,8 +48,10 @@ if (isset($_GET['keyword2'])){
         $keyword2 = $_GET['keyword2'];
        // echo $keyword.'<br>';
  }
-    
+
+//controller->checkNumber($keyword2) 
 $view->inputNumber($keyword1,$keyword2);
+
 
 $view->outputNumber();
 

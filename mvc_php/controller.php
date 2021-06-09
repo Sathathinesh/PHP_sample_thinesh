@@ -23,4 +23,8 @@ class Controller
     public function getError(){
         return $this->model->printError();
     }
+
+    public function checkNumber($num){
+        return is_int($num);
+    }
 }
